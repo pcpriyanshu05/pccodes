@@ -1,3 +1,3 @@
 # pccodes
-This is my first Git repositry.
+This is my first Git repository.
 Author-Priyanshu

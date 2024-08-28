@@ -1,0 +1,8 @@
+{
+    "code-runner.runInTerminal": true,
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "files.associations": {
+        "insertionarray": "c"
+    }
+}

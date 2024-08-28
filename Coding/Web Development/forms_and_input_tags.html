@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+</head>
+<body>
+    <h2>This is a form created by Priyanshu</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text"name="myname"id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text"name="myrole"id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email"name="myemail"id="email">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date"name="mydate"id="date">
+        </div>
+        <br>
+        <div>
+            Are you eligible?:<input type="checkbox"name="myeligibility"checked>
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio"name="myGender">Female<input type="radio"name="myGender">Other<input type="radio"name="myGender">
+        </div>
+        
+        <br>
+        <div>
+            Introduce yourself:<br><textarea name="mytext"cols="30"rows="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="ind">Aventador</option>
+                <option value="swf"selected>Regera</option>            
+            </select>
+        </div>
+        <div>
+            <input type="submit"value="Submit Now">
+            <input type="reset"value="Reset now">
+        </div>
+    </form>
+</body>
+</html>
+    
+        
+    
